@@ -1,0 +1,9 @@
+[
+  { "id": "python",     "label": "Python",      "icon": "🐍" },
+  { "id": "php",        "label": "PHP",          "icon": "🐘" },
+  { "id": "javascript", "label": "JavaScript",   "icon": "🟨" },
+  { "id": "sql",        "label": "SQL",          "icon": "🗄️" },
+  { "id": "lua",        "label": "Lua",          "icon": "🌙" },
+  { "id": "cpp",        "label": "C++",          "icon": "⚙️" },
+  { "id": "bash",       "label": "Bash",         "icon": "🖥️" }
+]
