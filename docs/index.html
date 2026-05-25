@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DevPath</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css" />
+</head>
+<body>
+
+  <!-- Sidebar -->
+  <aside id="sidebar">
+    <div id="sidebar-header">
+      <span class="logo">DevPath</span>
+      <span class="tagline">Intermediate concepts, no hand-holding</span>
+    </div>
+    <nav id="lang-nav"></nav>
+  </aside>
+
+  <!-- Main -->
+  <main id="main">
+    <div id="lesson-header" class="hidden">
+      <div id="breadcrumb"></div>
+      <div id="lesson-title-row">
+        <h1 id="lesson-title"></h1>
+        <span id="difficulty-badge"></span>
+      </div>
+      <button id="complete-btn" class="btn-complete">Mark Complete</button>
+    </div>
+
+    <article id="lesson-body"></article>
+
+    <div id="lesson-nav" class="hidden">
+      <button id="prev-btn" class="btn-nav">&larr; Previous</button>
+      <button id="next-btn" class="btn-nav">Next &rarr;</button>
+    </div>
+
+    <div id="welcome" class="welcome-screen">
+      <div class="welcome-inner">
+        <h2>DevPath</h2>
+        <p>Intermediate programming concepts across 7 languages.<br>Pick a language from the sidebar to start.</p>
+        <div class="lang-grid" id="welcome-grid"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-sql.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-lua.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-cpp.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-bash.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
